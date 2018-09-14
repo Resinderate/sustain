@@ -1,1 +1,2 @@
 django
+google-cloud-logging
