@@ -26,7 +26,7 @@ SECRET_KEY = '0_7j%6p&xe(o4a@#8c=0-0&q&$41878uqn-gtd%vvm^c9xke9@'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "35.242.128.130",
+    "streamable.mur-phy.com",
     "localhost",
 ]
 
