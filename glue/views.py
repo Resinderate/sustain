@@ -5,5 +5,5 @@ def hello_world(request):
     return HttpResponse("Hello, World!")
 
 
-def hello_moon(request):
-    return HttpResponse("Hello, Moon!")
+def link(request, link_id):
+    return HttpResponse(f"You are looking for the link with ID: {link_id}")

@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+INSTALLED_APPS += [
+    'glue'
+]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
