@@ -7,5 +7,5 @@ class Link(models.Model):
 
 
 class LinkPointer(models.Model):
-    parent = models.ForeignKey(Link, on_delete=models.CASCADE, related_name=copies)
+    parent = models.ForeignKey(Link, on_delete=models.CASCADE, related_name="copies")
     url = models.URLField()
