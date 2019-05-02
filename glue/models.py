@@ -2,8 +2,10 @@ from django.db import models
 
 
 class Link(models.Model):
-    url = models.URLField()
+    master_url = models.URLField()
+    slug = models.SlugField()
 
 
 class LinkPointer(models.Model):
-    parent = models.ForeignKey(Link, on_delete=models.CASCADE)
+    parent = models.ForeignKey(Link, on_delete=models.CASCADE, related_name=copies)
+    url = models.URLField()

@@ -21,5 +21,5 @@ from glue import views as glue_views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", glue_views.hello_world),
-    path("<slug:link_id>/", glue_views.link),
+    path("<slug:slug>/", glue_views.link),
 ]

@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Link, LinkPointer
+
+admin.site.register(Link)
+admin.site.register(LinkPointer)
