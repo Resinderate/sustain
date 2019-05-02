@@ -7,4 +7,3 @@ class Link(models.Model):
 
 class LinkPointer(models.Model):
     parent = models.ForeignKey(Link, on_delete=models.CASCADE)
-    url = models.URLField()
