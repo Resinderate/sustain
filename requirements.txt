@@ -1,2 +1,1 @@
-django
-google-cloud-logging
+Django==2.2.1
